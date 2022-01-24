@@ -1,0 +1,59 @@
+Name-Reshab Singh bisht
+University roll no-21711189
+ Course-MCA 1st C
+subject -Scripting languages TMC-106
+
+ 
+<html>
+<head><title>Form</title></head>
+<body style="background-color:powderblue;">
+<form>
+<H1>FORM</h1>
+ First name: <input type="text" id="fname" name="fname"><br>
+Last name:  <input type="text" id="lname" name="lname"><br>
+employeeID<input type="text" id="EID" name="EID"><br>
+Phone no<input type="text" id="Pno" name="Pno"><br>
+ <label for="Gender">Gender</label><br>
+Male<input type="radio" id="male" name="gender" value="male">
+Female<input type="radio" id="female" name="gender" value="female">
+other<input type="radio" id="other" name="gender" value="other"><br>
+DOB<input type="text" id="DOB" name="DOB"><br>
+<input type="file" id="myFile" name="filename"><br>
+ <input type="submit">
+</form>
+</body>
+</html>
+
+Q2-<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+
+<p><b><a href="https://www.gehu.ac.in/" target="_blank">home</a></b></p>
+<p><b><a href="https://www.gehu.ac.in/" target="_blank">about</a></b></p>
+<p><b><a href="https://www.gehu.ac.in/" target="_blank">help</a></b></p>
+</body>
+</html>
