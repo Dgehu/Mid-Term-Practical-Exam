@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+       <form>
+           <label>User Id: </label>
+           <input type="text" name="userid">
+           <label>Password:</label>
+           <input type="password" name="pass">
+           
+       </form>
+       <a href="employee_info.html">
+        <button type="submit" name="login">Login</button>
+       </a>
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+       <form name="Employee Information">
+            <label>Name</label>
+            <input type="text" name="userid"><br><br>
+
+            <label>Employee Id </label>
+            <input type="number" name="employeeId"><br><br>
+
+           
+
+            <label>Gender:</label>
+            
+            <input type="radio" value="male" name="gender">
+            <label for="male">Male</label>
+
+            <input type="radio" value="female" name="gender">
+            <label for="female">Female</label>
+            
+            
+          
+            <label>Date of Birth:</label>
+            <input type="date" name="dob"><br><br>
+            
+            <label>Upload Documents</label>
+            <input type="file" name="myfile"><br><br>
+            
+            <input type="submit">
+       </form>
+       
+    </body>
+</html>
