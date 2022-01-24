@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: Poppins, sans-serif;
+  background: #f8f8f8;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+}
+h1 {
+  margin: 0.2rem;
+  font-size: 1.2rem;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 100;
+  margin: 1.2rem 0;
+  letter-spacing: 0.1rem;
+}
+span {
+  font-size: 0.8rem;
+  margin: 1.2rem 0;
+}
+a {
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.container {
+  position: relative;
+  background: #417dff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  padding: 0.6rem;
+  width: 50rem;
+  height: 35rem;
+  overflow: hidden;
+  max-width: 100vw;
+  min-height: 70vh;
+}
+.form-container form {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.8rem;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.social-container {
+  margin: 0.6rem 0;
+}
+.social-container a {
+  border: 1px solid #eee;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+.social-container a:hover {
+  opacity: 0.8;
+}
+.form-container input {
+  width: 100%;
+  height: 2.2rem;
+  text-indent: 1rem;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+  margin: 0.6rem 0;
+}
+.form-container button:active {
+  transform: scale(0.95, 0.95);
+}
+.form-container button {
+  padding: 0.4rem 1rem;
+  background: #417dff;
+  color: white;
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  width: 5rem;
+  border-radius: 8px;
+  transition: all 100ms ease-in;
+  margin: 0.6rem 0;
+  font-size: 0.6rem;
+  padding: 0.5rem 0;
+}
+.form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.5s ease-in;
+}
+.sign-in-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+.sign-up-container {
+  left: 0;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+}
+.gender {
+  width: 100%;
+  display: flex;
+  padding-right: 15px;
+  justify-content: flex-start;
+}
+.gender input {
+  margin-left: 10px;
+}
+.gender span {
+  margin-left: 8px;
+  margin-right: 20px;
+}
+#submit-btn {
+  font-size: 13px;
+}
